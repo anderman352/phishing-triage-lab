@@ -1,0 +1,14 @@
+From: Microsoft <admin@microsoft-support.co>
+To: david@company.com
+Subject: Urgent Account Verification Needed
+
+Dear User,
+
+We detected unusual login attempts on your account. Please verify your identity at the link below:
+
+https://microsoft-security-check[.]com/login
+
+Failure to do so may result in restricted access.
+
+Thank you,  
+Microsoft Security Team

@@ -1,0 +1,5 @@
+URL: https://microsoft-security-check[.]com/login  
+Domain: microsoft-support.co  
+Sender: admin@microsoft-support.co  
+Subject Line: Urgent Account Verification Needed  
+File type: (none – link-based phishing)
