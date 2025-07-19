@@ -1,0 +1,21 @@
+timestamp,sender,recipient,subject,url
+2025-07-17 08:12:00,admin@microsoft-support.co,david@company.com,Account Verification,https://microsoft-security-check[.]com/login
+2025-07-17 08:13:45,billing@paypal-alert.com,jane@company.com,Invoice Overdue,https://paypal-check-secure[.]com/verify
+2025-07-17 08:15:00,alerts@coinbasealerts.io,admin@company.com,Security Notification,https://coinbase-verify[.]io/session
+2025-07-17 08:17:10,updates@github.com,david@company.com,GitHub Security Update,https://github.com/settings
+2025-07-17 08:20:00,newsletter@tech-news.com,carla@company.com,Top Tech Trends,http://tech-news.com/article
+2025-07-17 08:22:00,support@amaz0n-secure.co,jeff@company.com,Amazon Account Locked,https://amaz0n-verification[.]co/login
+2025-07-17 08:25:00,admin@fake-dropbox-login.com,tina@company.com,Reset Your Password,https://dropbox-login-confirm[.]com
+2025-07-17 08:30:00,contact@linkedin.com,bill@company.com,LinkedIn Connection Request,https://linkedin.com/invite
+2025-07-17 08:33:00,report@secure-bank-login.co,mark@company.com,Unusual Login Attempt,https://secure-bank-login[.]co/verify
+2025-07-17 08:35:00,info@realnewsdaily.com,jeff@company.com,Daily Digest,http://realnewsdaily.com/today
+2025-07-17 08:37:00,admin@office-securelogin.com,sue@company.com,Outlook Access Restricted,https://office365-check[.]io/auth
+2025-07-17 08:39:00,accounting@quickbooks.com,david@company.com,Your Statement is Ready,https://quickbooks.com/dashboard
+2025-07-17 08:40:00,support@netfl1x.io,kevin@company.com,Your Account Was Suspended,https://netfl1x-auth[.]io/login
+2025-07-17 08:41:00,admin@secure-messaging-app.com,jane@company.com,2FA Verification Needed,https://secure-app-check[.]com
+2025-07-17 08:43:00,offers@retail-store.com,david@company.com,Special Discount for You,http://retail-store.com/sale
+2025-07-17 08:45:00,admin@icloudsupport.io,bill@company.com,Apple Login Attempt Blocked,https://icloud-check[.]io
+2025-07-17 08:47:00,helpdesk@internal.company,david@company.com,Password Policy Update,https://internal-help.company/policy
+2025-07-17 08:50:00,news@dailybytes.co,carla@company.com,Today’s Headlines,http://dailybytes.co/news
+2025-07-17 08:52:00,support@venmo-cashlink.com,jeff@company.com,Claim Your Payment,https://venmo-cashlink[.]com
+2025-07-17 08:55:00,admin@hr-secureportal.com,tina@company.com,HR Document Update,https://hr-secureportal[.]com/login
