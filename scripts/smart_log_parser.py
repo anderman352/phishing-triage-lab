@@ -1,7 +1,8 @@
+from pathlib import Path
 import csv
 import re
 
-# ANSI color codes
+# ANSI color codes (same as before)
 RED = "\033[91m"
 YELLOW = "\033[93m"
 CYAN = "\033[96m"
@@ -22,8 +23,11 @@ phishing_patterns = [
     r".*dropbox.*login.*"
 ]
 
-# Open the CSV file
-with open('artifacts/mail_logs.csv', 'r') as f:
+# Dynamically locate the artifacts folder relative to this script
+base_dir = Path(__file__).resolve().parent.parent  # one level up from /scripts
+csv_path = base_dir / 'artifacts' / 'mail_logs.csv'
+
+with csv_path.open('r') as f:
     reader = csv.DictReader(f)
     print(f"\n{BOLD}{RED}🛑 Suspicious Emails Flagged by Regex Patterns:{RESET}\n")
 
@@ -43,6 +47,6 @@ with open('artifacts/mail_logs.csv', 'r') as f:
             print(f"{YELLOW}URL:      {RESET} {row['url']}\n")
             print("-" * 60)
 
+
             print(f"{BOLD}{RED}⚠️ Suspicious activity detected!{RESET}\n")
             print("-" * 60)
-            
