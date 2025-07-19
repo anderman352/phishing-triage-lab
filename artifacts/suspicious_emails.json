@@ -1,0 +1,102 @@
+[
+    {
+        "timestamp": "2025-07-17 08:12:00",
+        "sender": "admin@microsoft-support.co",
+        "recipient": "david@company.com",
+        "subject": "Account Verification",
+        "url": "https://microsoft-security-check[.]com/login",
+        "matched_pattern": ".*microsoft.*support.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:13:45",
+        "sender": "billing@paypal-alert.com",
+        "recipient": "jane@company.com",
+        "subject": "Invoice Overdue",
+        "url": "https://paypal-check-secure[.]com/verify",
+        "matched_pattern": ".*paypal.*(alert|check).*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:15:00",
+        "sender": "alerts@coinbasealerts.io",
+        "recipient": "admin@company.com",
+        "subject": "Security Notification",
+        "url": "https://coinbase-verify[.]io/session",
+        "matched_pattern": ".*coinbase.*(alert|verify).*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:22:00",
+        "sender": "support@amaz0n-secure.co",
+        "recipient": "jeff@company.com",
+        "subject": "Amazon Account Locked",
+        "url": "https://amaz0n-verification[.]co/login",
+        "matched_pattern": ".*amaz[0o]n.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:25:00",
+        "sender": "admin@fake-dropbox-login.com",
+        "recipient": "tina@company.com",
+        "subject": "Reset Your Password",
+        "url": "https://dropbox-login-confirm[.]com",
+        "matched_pattern": ".*dropbox.*login.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:37:00",
+        "sender": "admin@office-securelogin.com",
+        "recipient": "sue@company.com",
+        "subject": "Outlook Access Restricted",
+        "url": "https://office365-check[.]io/auth",
+        "matched_pattern": ".*office.*secure.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:40:00",
+        "sender": "support@netfl1x.io",
+        "recipient": "kevin@company.com",
+        "subject": "Your Account Was Suspended",
+        "url": "https://netfl1x-auth[.]io/login",
+        "matched_pattern": ".*netfl[i1]x.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:45:00",
+        "sender": "admin@icloudsupport.io",
+        "recipient": "bill@company.com",
+        "subject": "Apple Login Attempt Blocked",
+        "url": "https://icloud-check[.]io",
+        "matched_pattern": ".*icloud.*check.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:52:00",
+        "sender": "support@venmo-cashlink.com",
+        "recipient": "jeff@company.com",
+        "subject": "Claim Your Payment",
+        "url": "https://venmo-cashlink[.]com",
+        "matched_pattern": ".*venmo.*cashlink.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    },
+    {
+        "timestamp": "2025-07-17 08:55:00",
+        "sender": "admin@hr-secureportal.com",
+        "recipient": "tina@company.com",
+        "subject": "HR Document Update",
+        "url": "https://hr-secureportal[.]com/login",
+        "matched_pattern": ".*hr.*secure.*portal.*",
+        "mitre_technique": "T1566.002",
+        "mitre_tactic": "Initial Access"
+    }
+]
