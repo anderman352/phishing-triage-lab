@@ -22,10 +22,6 @@ This Python script scans inbound email logs for phishing indicators using regula
 ### 📁 File
 scripts/log_parser.py
 
-shell
-Copy
-Edit
-
 ### ▶️ Example Output
 🛑 Suspicious Emails Flagged by Regex Patterns:
 
@@ -35,21 +31,14 @@ To: david@company.com
 Subject: Account Verification
 URL: https://microsoft-security-check[.]com/login
 MITRE: T1566.002 (Initial Access)
-bash
-Copy
-Edit
 
 ### 🧪 To Run
 From the root of the project folder:
 ```bash
 python scripts/log_parser.py
-Results are saved to:
+Results are saved to:artifacts/suspicious_emails.json
 
-bash
-Copy
-Edit
-artifacts/suspicious_emails.json
-📊 Analyzer Script
+Analyzer Script
 This script ingests the exported suspicious email dataset and reveals threat trends by:
 
 Identifying top sender domains
