@@ -1,21 +1,201 @@
 timestamp,sender,recipient,subject,url
-2025-07-17 08:12:00,admin@microsoft-support.co,david@company.com,Account Verification,https://microsoft-security-check[.]com/login
-2025-07-17 08:13:45,billing@paypal-alert.com,jane@company.com,Invoice Overdue,https://paypal-check-secure[.]com/verify
-2025-07-17 08:15:00,alerts@coinbasealerts.io,admin@company.com,Security Notification,https://coinbase-verify[.]io/session
-2025-07-17 08:17:10,updates@github.com,david@company.com,GitHub Security Update,https://github.com/settings
-2025-07-17 08:20:00,newsletter@tech-news.com,carla@company.com,Top Tech Trends,http://tech-news.com/article
-2025-07-17 08:22:00,support@amaz0n-secure.co,jeff@company.com,Amazon Account Locked,https://amaz0n-verification[.]co/login
-2025-07-17 08:25:00,admin@fake-dropbox-login.com,tina@company.com,Reset Your Password,https://dropbox-login-confirm[.]com
-2025-07-17 08:30:00,contact@linkedin.com,bill@company.com,LinkedIn Connection Request,https://linkedin.com/invite
-2025-07-17 08:33:00,report@secure-bank-login.co,mark@company.com,Unusual Login Attempt,https://secure-bank-login[.]co/verify
-2025-07-17 08:35:00,info@realnewsdaily.com,jeff@company.com,Daily Digest,http://realnewsdaily.com/today
-2025-07-17 08:37:00,admin@office-securelogin.com,sue@company.com,Outlook Access Restricted,https://office365-check[.]io/auth
-2025-07-17 08:39:00,accounting@quickbooks.com,david@company.com,Your Statement is Ready,https://quickbooks.com/dashboard
-2025-07-17 08:40:00,support@netfl1x.io,kevin@company.com,Your Account Was Suspended,https://netfl1x-auth[.]io/login
-2025-07-17 08:41:00,admin@secure-messaging-app.com,jane@company.com,2FA Verification Needed,https://secure-app-check[.]com
-2025-07-17 08:43:00,offers@retail-store.com,david@company.com,Special Discount for You,http://retail-store.com/sale
-2025-07-17 08:45:00,admin@icloudsupport.io,bill@company.com,Apple Login Attempt Blocked,https://icloud-check[.]io
-2025-07-17 08:47:00,helpdesk@internal.company,david@company.com,Password Policy Update,https://internal-help.company/policy
-2025-07-17 08:50:00,news@dailybytes.co,carla@company.com,Today’s Headlines,http://dailybytes.co/news
-2025-07-17 08:52:00,support@venmo-cashlink.com,jeff@company.com,Claim Your Payment,https://venmo-cashlink[.]com
-2025-07-17 08:55:00,admin@hr-secureportal.com,tina@company.com,HR Document Update,https://hr-secureportal[.]com/login
+2025-07-15 02:32:27,noreply@news.company.io,eve@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-13 20:16:27,noreply@internal-notify.com,frank@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-17 12:44:27,noreply@support.company.com,carol@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-14 13:13:27,noreply@news.company.io,grace@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-13 11:26:27,noreply@support.company.com,frank@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-19 20:10:27,noreply@calendar.local,heidi@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-14 13:17:27,noreply@news.company.io,bob@company.com,Weekly Update,https://news.company.io/notice
+2025-07-17 11:08:27,alert@coinbase-auth.io,bob@company.com,Urgent Account Update,https://coinbase-auth.io/login
+2025-07-14 10:31:27,noreply@support.company.com,alice@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-15 23:23:27,noreply@news.company.io,dave@company.com,Weekly Update,https://news.company.io/notice
+2025-07-19 01:19:27,noreply@internal-notify.com,frank@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-17 16:00:27,noreply@support.company.com,heidi@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-19 04:40:27,noreply@news.company.io,judy@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-16 00:03:27,noreply@news.company.io,heidi@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-19 10:48:27,noreply@support.company.com,dave@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-16 13:30:27,noreply@news.company.io,dave@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-18 18:26:27,noreply@support.company.com,ivan@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-16 03:30:27,noreply@internal-notify.com,bob@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-17 11:14:27,noreply@support.company.com,bob@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-13 08:26:27,noreply@calendar.local,bob@company.com,Weekly Update,https://calendar.local/notice
+2025-07-18 14:57:27,noreply@support.company.com,alice@company.com,Weekly Update,https://support.company.com/notice
+2025-07-16 19:40:27,noreply@support.company.com,bob@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-13 05:06:27,noreply@news.company.io,heidi@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-19 14:32:27,noreply@support.company.com,dave@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-15 21:23:27,noreply@internal-notify.com,eve@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 18:12:27,noreply@calendar.local,dave@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-18 22:12:27,noreply@internal-notify.com,alice@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-15 19:39:27,noreply@support.company.com,carol@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-15 11:55:27,noreply@news.company.io,alice@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-17 08:58:27,noreply@news.company.io,frank@company.com,Weekly Update,https://news.company.io/notice
+2025-07-19 14:04:27,noreply@internal-notify.com,frank@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-17 03:34:27,noreply@support.company.com,carol@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-17 17:55:27,noreply@support.company.com,heidi@company.com,Weekly Update,https://support.company.com/notice
+2025-07-17 03:14:27,noreply@calendar.local,heidi@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-13 22:11:27,noreply@internal-notify.com,frank@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 10:21:27,noreply@internal-notify.com,heidi@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-19 10:02:27,alert@coinbase-auth.io,carol@company.com,Verify Now,https://coinbase-auth.io/login
+2025-07-14 23:22:27,noreply@news.company.io,ivan@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-15 01:11:27,noreply@news.company.io,grace@company.com,Weekly Update,https://news.company.io/notice
+2025-07-13 15:01:27,noreply@internal-notify.com,grace@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-17 09:23:27,noreply@support.company.com,grace@company.com,Weekly Update,https://support.company.com/notice
+2025-07-17 14:45:27,noreply@internal-notify.com,ivan@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-17 10:29:27,noreply@calendar.local,heidi@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-14 01:02:27,noreply@calendar.local,dave@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-16 09:21:27,noreply@support.company.com,dave@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-19 04:31:27,noreply@calendar.local,eve@company.com,Weekly Update,https://calendar.local/notice
+2025-07-15 03:55:27,noreply@support.company.com,eve@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-14 15:17:27,noreply@internal-notify.com,carol@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-13 08:57:27,noreply@internal-notify.com,dave@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-14 16:34:27,noreply@calendar.local,heidi@company.com,Weekly Update,https://calendar.local/notice
+2025-07-17 04:56:27,noreply@internal-notify.com,judy@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-17 02:54:27,noreply@support.company.com,dave@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-19 13:02:27,noreply@support.company.com,judy@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-18 02:12:27,noreply@news.company.io,alice@company.com,Weekly Update,https://news.company.io/notice
+2025-07-13 19:05:27,noreply@news.company.io,bob@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-14 21:49:27,noreply@news.company.io,bob@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-16 04:11:27,noreply@news.company.io,eve@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-17 18:06:27,noreply@calendar.local,grace@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-16 17:39:27,noreply@support.company.com,ivan@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-14 02:50:27,noreply@internal-notify.com,alice@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 03:58:27,noreply@calendar.local,grace@company.com,Weekly Update,https://calendar.local/notice
+2025-07-18 18:50:27,noreply@support.company.com,dave@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-18 17:19:27,noreply@support.company.com,alice@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-14 17:04:27,noreply@internal-notify.com,carol@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-19 06:21:27,noreply@internal-notify.com,ivan@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-13 19:26:27,noreply@internal-notify.com,grace@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-16 06:05:27,noreply@news.company.io,eve@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-16 20:29:27,noreply@support.company.com,alice@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-16 05:45:27,noreply@news.company.io,grace@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-14 17:59:27,noreply@calendar.local,bob@company.com,Project Kickoff,https://calendar.local/notice
+2025-07-19 20:57:27,noreply@news.company.io,heidi@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-17 22:22:27,alert@paypal-alert.net,ivan@company.com,Download Invoice,https://paypal-alert.net/login
+2025-07-19 01:42:27,noreply@support.company.com,alice@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-19 13:30:27,noreply@internal-notify.com,frank@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-14 03:48:27,alert@paypal-alert.net,frank@company.com,Immediate Action Required,https://paypal-alert.net/login
+2025-07-14 16:10:27,noreply@internal-notify.com,ivan@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 10:06:27,noreply@internal-notify.com,alice@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-15 06:35:27,noreply@internal-notify.com,ivan@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-17 10:37:27,noreply@calendar.local,ivan@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-19 01:13:27,noreply@support.company.com,dave@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-16 23:48:27,noreply@support.company.com,bob@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-16 05:47:27,noreply@support.company.com,dave@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-16 21:48:27,noreply@calendar.local,eve@company.com,Weekly Update,https://calendar.local/notice
+2025-07-15 11:12:27,noreply@internal-notify.com,frank@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 15:06:27,noreply@internal-notify.com,dave@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-14 13:49:27,noreply@news.company.io,heidi@company.com,Weekly Update,https://news.company.io/notice
+2025-07-13 17:20:27,noreply@calendar.local,heidi@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-16 21:06:27,noreply@internal-notify.com,dave@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-18 20:37:27,noreply@calendar.local,frank@company.com,Weekly Update,https://calendar.local/notice
+2025-07-16 14:57:27,noreply@news.company.io,alice@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-13 08:02:27,noreply@support.company.com,heidi@company.com,Weekly Update,https://support.company.com/notice
+2025-07-13 08:31:27,noreply@internal-notify.com,bob@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-16 18:16:27,noreply@calendar.local,heidi@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-13 18:28:27,noreply@support.company.com,ivan@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-17 00:14:27,noreply@news.company.io,bob@company.com,Weekly Update,https://news.company.io/notice
+2025-07-15 01:10:27,noreply@internal-notify.com,alice@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-14 08:31:27,noreply@support.company.com,eve@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-17 16:46:27,noreply@internal-notify.com,grace@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-15 03:27:27,noreply@calendar.local,judy@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-17 03:01:27,noreply@support.company.com,grace@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-16 11:07:27,noreply@calendar.local,dave@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-17 11:26:27,noreply@calendar.local,ivan@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-13 23:27:27,noreply@support.company.com,judy@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-18 10:37:27,noreply@news.company.io,grace@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-17 07:06:27,noreply@news.company.io,judy@company.com,Weekly Update,https://news.company.io/notice
+2025-07-16 14:11:27,noreply@support.company.com,grace@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-16 15:43:27,alert@secure-microsoft-check.com,judy@company.com,Suspicious Login,https://secure-microsoft-check.com/login
+2025-07-16 23:48:27,noreply@internal-notify.com,grace@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-19 03:13:27,alert@secure-microsoft-check.com,ivan@company.com,Suspicious Login,https://secure-microsoft-check.com/login
+2025-07-19 22:16:27,noreply@support.company.com,ivan@company.com,Weekly Update,https://support.company.com/notice
+2025-07-17 05:44:27,noreply@news.company.io,judy@company.com,Weekly Update,https://news.company.io/notice
+2025-07-15 21:58:27,noreply@calendar.local,ivan@company.com,Project Kickoff,https://calendar.local/notice
+2025-07-15 16:51:27,noreply@news.company.io,frank@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-17 20:43:27,noreply@support.company.com,heidi@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-15 05:33:27,noreply@support.company.com,grace@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-13 07:18:27,noreply@internal-notify.com,carol@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 17:28:27,noreply@news.company.io,eve@company.com,Weekly Update,https://news.company.io/notice
+2025-07-18 10:20:27,noreply@news.company.io,judy@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-16 17:01:27,noreply@calendar.local,eve@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-17 06:07:27,noreply@news.company.io,eve@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-15 01:59:27,noreply@support.company.com,judy@company.com,Weekly Update,https://support.company.com/notice
+2025-07-15 02:32:27,noreply@news.company.io,carol@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-16 16:35:27,noreply@support.company.com,frank@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-15 20:42:27,noreply@calendar.local,bob@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-17 23:04:27,noreply@internal-notify.com,judy@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-19 13:03:27,noreply@calendar.local,ivan@company.com,Weekly Update,https://calendar.local/notice
+2025-07-15 12:53:27,noreply@news.company.io,ivan@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-17 15:56:27,noreply@internal-notify.com,frank@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-19 08:10:27,noreply@news.company.io,ivan@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-16 19:46:27,noreply@internal-notify.com,dave@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-18 02:29:27,noreply@internal-notify.com,grace@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 14:53:27,noreply@calendar.local,grace@company.com,Project Kickoff,https://calendar.local/notice
+2025-07-18 19:44:27,alert@secure-microsoft-check.com,dave@company.com,Urgent Account Update,https://secure-microsoft-check.com/login
+2025-07-17 19:43:27,noreply@news.company.io,eve@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-17 00:55:27,noreply@calendar.local,bob@company.com,Weekly Update,https://calendar.local/notice
+2025-07-16 16:00:27,noreply@news.company.io,frank@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-16 08:58:27,noreply@support.company.com,eve@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-16 01:49:27,noreply@news.company.io,bob@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-19 03:27:27,noreply@internal-notify.com,heidi@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-13 20:06:27,noreply@internal-notify.com,frank@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-15 09:04:27,alert@coinbase-auth.io,ivan@company.com,Immediate Action Required,https://coinbase-auth.io/login
+2025-07-19 00:36:27,noreply@support.company.com,carol@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-15 11:27:27,noreply@calendar.local,heidi@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-17 20:02:27,noreply@news.company.io,frank@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-16 22:56:27,noreply@internal-notify.com,grace@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-16 06:50:27,noreply@calendar.local,grace@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-16 17:00:27,noreply@support.company.com,judy@company.com,Weekly Update,https://support.company.com/notice
+2025-07-14 07:58:27,noreply@news.company.io,judy@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-19 09:23:27,noreply@calendar.local,eve@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-17 19:15:27,noreply@calendar.local,dave@company.com,Weekly Update,https://calendar.local/notice
+2025-07-14 14:05:27,noreply@calendar.local,dave@company.com,Weekly Update,https://calendar.local/notice
+2025-07-15 12:17:27,noreply@internal-notify.com,eve@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-14 07:41:27,noreply@news.company.io,bob@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-19 01:07:27,noreply@news.company.io,grace@company.com,Weekly Update,https://news.company.io/notice
+2025-07-14 10:02:27,noreply@support.company.com,alice@company.com,Weekly Update,https://support.company.com/notice
+2025-07-15 16:07:27,noreply@calendar.local,bob@company.com,Internal Newsletter,https://calendar.local/notice
+2025-07-19 11:50:27,noreply@news.company.io,alice@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-18 05:22:27,noreply@internal-notify.com,ivan@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-13 15:52:27,noreply@internal-notify.com,carol@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-16 18:41:27,noreply@news.company.io,eve@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-14 15:51:27,noreply@support.company.com,heidi@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-15 02:57:27,noreply@support.company.com,judy@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-19 08:05:27,noreply@calendar.local,dave@company.com,Weekly Update,https://calendar.local/notice
+2025-07-16 04:18:27,alert@secure-microsoft-check.com,bob@company.com,Urgent Account Update,https://secure-microsoft-check.com/login
+2025-07-18 03:13:27,noreply@support.company.com,frank@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-13 13:21:27,noreply@support.company.com,ivan@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-15 01:33:27,noreply@news.company.io,ivan@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-15 06:43:27,noreply@news.company.io,eve@company.com,Weekly Update,https://news.company.io/notice
+2025-07-15 11:28:27,alert@coinbase-auth.io,carol@company.com,Urgent Account Update,https://coinbase-auth.io/login
+2025-07-16 14:48:27,noreply@support.company.com,frank@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-18 20:08:27,noreply@news.company.io,ivan@company.com,Weekly Update,https://news.company.io/notice
+2025-07-13 16:45:27,noreply@news.company.io,eve@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-19 16:31:27,noreply@support.company.com,heidi@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-15 12:10:27,noreply@internal-notify.com,alice@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-15 01:04:27,noreply@news.company.io,ivan@company.com,Project Kickoff,https://news.company.io/notice
+2025-07-16 03:44:27,noreply@support.company.com,carol@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-18 10:08:27,noreply@support.company.com,dave@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-13 09:42:27,noreply@calendar.local,ivan@company.com,Weekly Update,https://calendar.local/notice
+2025-07-15 19:37:27,noreply@internal-notify.com,carol@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-17 03:30:27,noreply@support.company.com,frank@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-18 06:43:27,noreply@internal-notify.com,bob@company.com,Meeting Reminder,https://internal-notify.com/notice
+2025-07-17 21:43:27,noreply@news.company.io,judy@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-16 06:42:27,noreply@calendar.local,eve@company.com,Weekly Update,https://calendar.local/notice
+2025-07-17 04:06:27,noreply@news.company.io,ivan@company.com,Weekly Update,https://news.company.io/notice
+2025-07-16 04:03:27,noreply@support.company.com,carol@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-16 22:07:27,noreply@internal-notify.com,ivan@company.com,Weekly Update,https://internal-notify.com/notice
+2025-07-18 10:58:27,noreply@calendar.local,eve@company.com,Meeting Reminder,https://calendar.local/notice
+2025-07-15 08:40:27,noreply@support.company.com,bob@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-14 16:22:27,noreply@news.company.io,eve@company.com,Internal Newsletter,https://news.company.io/notice
+2025-07-18 09:14:27,noreply@support.company.com,judy@company.com,Meeting Reminder,https://support.company.com/notice
+2025-07-17 16:39:27,noreply@news.company.io,frank@company.com,Meeting Reminder,https://news.company.io/notice
+2025-07-19 09:36:27,noreply@internal-notify.com,dave@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-19 08:42:27,noreply@support.company.com,dave@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-13 09:52:27,noreply@support.company.com,dave@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-17 07:19:27,noreply@support.company.com,grace@company.com,Project Kickoff,https://support.company.com/notice
+2025-07-15 14:56:27,noreply@news.company.io,grace@company.com,Weekly Update,https://news.company.io/notice
+2025-07-18 09:04:27,noreply@internal-notify.com,heidi@company.com,Internal Newsletter,https://internal-notify.com/notice
+2025-07-14 02:25:27,noreply@internal-notify.com,carol@company.com,Project Kickoff,https://internal-notify.com/notice
+2025-07-14 21:13:27,noreply@support.company.com,judy@company.com,Internal Newsletter,https://support.company.com/notice
+2025-07-19 18:01:27,noreply@internal-notify.com,frank@company.com,Internal Newsletter,https://internal-notify.com/notice
