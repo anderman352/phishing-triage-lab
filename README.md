@@ -15,55 +15,62 @@ SOC Alert Lifecycle simulation: phishing email analysis, threat triage, and IR d
 
 ---
 
-## 🧠 Log Parser Script
+## 🧠 Log Parser Scripts
 
-This Python script scans inbound email logs for phishing indicators using regular expressions and enriches each alert with MITRE ATT&CK tags.
+This lab now supports both CSV and JSON log formats, with separate parsers for each.
 
-### 📁 File
-scripts/log_parser.py
+---
 
-### ▶️ Example Output
-🛑 Suspicious Emails Flagged by Regex Patterns:
+### 📂 CSV Parser – `csv_sslp.py`
 
-Timestamp: 2025-07-17 08:12:00
-Sender: admin@microsoft-support.co
-To: david@company.com
-Subject: Account Verification
-URL: https://microsoft-security-check[.]com/login
-MITRE: T1566.002 (Initial Access)
+Parses phishing email records from a CSV-formatted mail log. Detects suspicious patterns, maps MITRE techniques, and exports alerts.
 
-### 🧪 To Run
-From the root of the project folder:
+📁 File:
+scripts/csv_sslp.py
+
+bash
+Copy
+Edit
+
+🧪 To Run:
 ```bash
-python scripts/log_parser.py
-Results are saved to:artifacts/suspicious_emails.json
+python scripts/csv_sslp.py
+Input:
 
-Analyzer Script
-This script ingests the exported suspicious email dataset and reveals threat trends by:
+bash
+Copy
+Edit
+artifacts/mail_logs.csv
+Output:
 
-Identifying top sender domains
+bash
+Copy
+Edit
+artifacts/suspicious_emails.json
+📂 JSON Parser – json_sslp.py (stubbed)
+Parses structured phishing records in JSON format. Currently a placeholder for enhanced metadata-aware detection.
 
-Sorting attack volume by MITRE technique
+📁 File:
 
-Ranking most-targeted users in your environment
+bash
+Copy
+Edit
+scripts/json_sslp.py
+🧪 To Run:
 
-📁 File
-scripts/analyzer.py
-▶️ Example Output
+bash
+Copy
+Edit
+python scripts/json_sslp.py
+Input:
 
-Top 3 Sender Domains:
-  microsoft-support.co: 4 emails
-  hr-secureportal.com: 3 emails
-  netfl1x-auth.io: 2 emails
+bash
+Copy
+Edit
+artifacts/mail_logs.json
+Status:
 
-Top 3 MITRE Techniques:
-  T1566.002: 9 matches
-
-Most Targeted Users:
-  david@company.com: 5 phishing attempts
-
-Analysis complete. Review the results above for insights into phishing trends.
-Data source: artifacts/suspicious_emails.json
-To Run
-From the root of the project:
-python scripts/analyzer.py
+pgsql
+Copy
+Edit
+🚧 Parser logic to be implemented
