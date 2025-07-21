@@ -1,22 +1,2576 @@
 [
     {
-        "timestamp": "2025-07-17 22:22:27",
-        "sender": "alert@paypal-alert.net",
-        "recipient": "ivan@company.com",
-        "subject": "Download Invoice",
-        "url": "https://paypal-alert.net/login",
-        "matched_pattern": ".*paypal.*(alert|check).*",
-        "mitre_technique": "T1566.002",
-        "mitre_tactic": "Initial Access"
+        "timestamp": "2025-07-16 21:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
     },
     {
-        "timestamp": "2025-07-14 03:48:27",
-        "sender": "alert@paypal-alert.net",
+        "timestamp": "2025-07-14 06:54:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 11:32:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 11:20:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 18:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 13:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 02:02:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 02:45:01",
+        "sender": "noreply@internal-notify.com",
         "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 14:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 15:12:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 10:28:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 04:57:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 20:33:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 22:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 07:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 19:11:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 13:25:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 05:58:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 09:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 14:33:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 17:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 09:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 03:48:01",
+        "sender": "alert@customers\u0435rvic\u0435-netflix.com",
+        "recipient": "dave@company.com",
+        "subject": "Verif\u0443 N\u043ew",
+        "url": "https://customers\u0435rvic\u0435-netflix.com/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-20 19:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 02:30:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 22:53:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 15:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 01:21:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 14:29:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 14:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 08:00:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 07:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 05:45:01",
+        "sender": "alert@coinb\u0430se-auth.i\u043e",
+        "recipient": "carol@company.com",
+        "subject": "Immediate Acti\u043en Required",
+        "url": "https://coinb\u0430se-auth.i\u043e/login",
+        "matched_pattern": "coinbase[-_.]?(auth|alert)",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-18 19:39:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 07:20:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 02:47:01",
+        "sender": "alert@secure-micr\u043esoft-\u0441h\u0435\u0441k.com",
+        "recipient": "alice@company.com",
+        "subject": "Urgent Ac\u0441\u043eunt U\u0440d\u0430t\u0435",
+        "url": "https://secure-micr\u043esoft-\u0441h\u0435\u0441k.com/login",
+        "matched_pattern": "secure[-_.]?(check|account|microsoft)",
+        "mitre_technique": "T1584.001"
+    },
+    {
+        "timestamp": "2025-07-18 06:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 08:38:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 06:03:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 04:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 04:26:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 04:57:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 21:43:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 02:00:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 08:42:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-13 23:28:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 01:19:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 09:00:01",
+        "sender": "alert@d\u043ecument-previ\u0435w.n\u0435t",
+        "recipient": "dave@company.com",
+        "subject": "Suspicious Login",
+        "url": "https://d\u043ecument-previ\u0435w.n\u0435t/login",
+        "matched_pattern": "(document|pdf)[-_.]?preview",
+        "mitre_technique": "T1566.001"
+    },
+    {
+        "timestamp": "2025-07-17 11:24:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 04:27:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 08:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 08:57:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 02:47:01",
+        "sender": "alert@pa\u0443\u0440al-alert.net",
+        "recipient": "ivan@company.com",
+        "subject": "Suspicious Login",
+        "url": "https://pa\u0443\u0440al-alert.net/login",
+        "matched_pattern": "paypal[-_.]?alert",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-18 06:59:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 04:39:01",
+        "sender": "alert@se\u0441ur\u0435-micros\u043eft-check.\u0441om",
+        "recipient": "bob@company.com",
+        "subject": "Urg\u0435nt Acc\u043eunt Upd\u0430t\u0435",
+        "url": "https://se\u0441ur\u0435-micros\u043eft-check.\u0441om/login",
+        "matched_pattern": "secure[-_.]?(check|account|microsoft)",
+        "mitre_technique": "T1584.001"
+    },
+    {
+        "timestamp": "2025-07-20 13:54:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 19:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 12:49:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 19:28:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 04:11:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 19:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 09:48:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 10:52:01",
+        "sender": "alert@\u0441ustomerservic\u0435-n\u0435tflix.\u0441om",
+        "recipient": "grace@company.com",
+        "subject": "Suspicious L\u043egin",
+        "url": "https://\u0441ustomerservic\u0435-n\u0435tflix.\u0441om/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-17 02:55:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 04:32:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 20:42:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 19:25:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 20:38:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 13:56:01",
+        "sender": "alert@\u0440\u043ew\u0435rsh\u0435ll-hel\u0440desk.c\u043em",
+        "recipient": "heidi@company.com",
+        "subject": "Immedi\u0430te Action Required",
+        "url": "https://\u0440\u043ew\u0435rsh\u0435ll-hel\u0440desk.c\u043em/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.001"
+    },
+    {
+        "timestamp": "2025-07-17 21:27:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 01:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 03:28:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 14:55:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 03:29:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 17:30:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 21:20:01",
+        "sender": "alert@invoi\u0441\u0435-u\u0440date.com",
+        "recipient": "judy@company.com",
+        "subject": "Verif\u0443 N\u043ew",
+        "url": "https://invoi\u0441\u0435-u\u0440date.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-17 09:54:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 23:47:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 07:18:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 00:18:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 19:35:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 11:31:01",
+        "sender": "alert@powershell-helpdesk.com",
+        "recipient": "eve@company.com",
+        "subject": "Immediate A\u0441ti\u043en Required",
+        "url": "https://powershell-helpdesk.com/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.001"
+    },
+    {
+        "timestamp": "2025-07-18 09:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 04:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 09:23:01",
+        "sender": "alert@d\u043ewnlo\u0430d-\u0440df-safely.\u043erg",
+        "recipient": "judy@company.com",
+        "subject": "Immedi\u0430te Action Requir\u0435d",
+        "url": "https://d\u043ewnlo\u0430d-\u0440df-safely.\u043erg/login",
+        "matched_pattern": "download[-_.]?pdf",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-13 23:21:01",
+        "sender": "alert@invoice-u\u0440d\u0430te.com",
+        "recipient": "grace@company.com",
+        "subject": "D\u043ewnload Invoice",
+        "url": "https://invoice-u\u0440d\u0430te.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-16 12:13:01",
+        "sender": "alert@document-\u0440review.n\u0435t",
+        "recipient": "carol@company.com",
+        "subject": "Verify Now",
+        "url": "https://document-\u0440review.n\u0435t/login",
+        "matched_pattern": "(document|pdf)[-_.]?preview",
+        "mitre_technique": "T1566.001"
+    },
+    {
+        "timestamp": "2025-07-19 17:29:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 22:24:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 12:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 02:16:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 01:52:01",
+        "sender": "alert@customers\u0435rvice-n\u0435tflix.com",
+        "recipient": "grace@company.com",
+        "subject": "Urg\u0435nt A\u0441count Update",
+        "url": "https://customers\u0435rvice-n\u0435tflix.com/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-20 20:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 06:17:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 00:29:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 18:02:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 09:47:01",
+        "sender": "alert@click-here-urg\u0435nt.com",
+        "recipient": "judy@company.com",
+        "subject": "Sus\u0440ici\u043eus Login",
+        "url": "https://click-here-urg\u0435nt.com/login",
+        "matched_pattern": "click[-_.]?here[-_.]?(now|urgent|verify)",
+        "mitre_technique": "T1204.001"
+    },
+    {
+        "timestamp": "2025-07-19 19:52:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 13:17:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 12:33:01",
+        "sender": "alert@\u0441md-r\u0435set-w\u0430rning.net",
+        "recipient": "judy@company.com",
+        "subject": "Sus\u0440i\u0441i\u043eus Login",
+        "url": "https://\u0441md-r\u0435set-w\u0430rning.net/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.003"
+    },
+    {
+        "timestamp": "2025-07-19 04:32:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 11:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 13:18:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 06:15:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 08:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 01:31:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 06:02:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 04:46:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 13:47:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 12:24:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-13 23:12:01",
+        "sender": "alert@invoi\u0441e-update.com",
+        "recipient": "ivan@company.com",
+        "subject": "D\u043ewnload Invoice",
+        "url": "https://invoi\u0441e-update.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-18 00:33:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 16:31:01",
+        "sender": "alert@do\u0441ument-pr\u0435view.net",
+        "recipient": "dave@company.com",
+        "subject": "Suspi\u0441ious Login",
+        "url": "https://do\u0441ument-pr\u0435view.net/login",
+        "matched_pattern": "(document|pdf)[-_.]?preview",
+        "mitre_technique": "T1566.001"
+    },
+    {
+        "timestamp": "2025-07-17 03:19:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 07:17:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 21:38:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 22:15:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 13:45:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 12:53:01",
+        "sender": "alert@cust\u043emerservi\u0441\u0435-netflix.\u0441om",
+        "recipient": "dave@company.com",
+        "subject": "Download Inv\u043eic\u0435",
+        "url": "https://cust\u043emerservi\u0441\u0435-netflix.\u0441om/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-19 10:43:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 06:42:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 09:17:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 03:20:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 05:59:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 01:39:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 14:27:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 07:05:01",
+        "sender": "alert@cmd-reset-w\u0430rning.n\u0435t",
+        "recipient": "dave@company.com",
+        "subject": "Downl\u043ead Inv\u043eice",
+        "url": "https://cmd-reset-w\u0430rning.n\u0435t/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.003"
+    },
+    {
+        "timestamp": "2025-07-16 09:52:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 05:53:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 04:27:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 02:32:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 00:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 08:03:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 23:53:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 10:52:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 01:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 17:43:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 00:31:01",
+        "sender": "alert@invoice-update.c\u043em",
+        "recipient": "dave@company.com",
+        "subject": "Suspicious Login",
+        "url": "https://invoice-update.c\u043em/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-18 04:03:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 00:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 17:47:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 09:49:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 12:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 10:55:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 10:44:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 18:09:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 11:52:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 14:27:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 08:38:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 15:35:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 04:33:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 23:57:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 12:45:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 11:41:01",
+        "sender": "alert@click-here-urg\u0435nt.\u0441om",
+        "recipient": "carol@company.com",
+        "subject": "Suspicious Login",
+        "url": "https://click-here-urg\u0435nt.\u0441om/login",
+        "matched_pattern": "click[-_.]?here[-_.]?(now|urgent|verify)",
+        "mitre_technique": "T1204.001"
+    },
+    {
+        "timestamp": "2025-07-15 21:09:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 09:50:01",
+        "sender": "alert@click-her\u0435-urgent.\u0441om",
+        "recipient": "frank@company.com",
+        "subject": "Immediat\u0435 Acti\u043en R\u0435quired",
+        "url": "https://click-her\u0435-urgent.\u0441om/login",
+        "matched_pattern": "click[-_.]?here[-_.]?(now|urgent|verify)",
+        "mitre_technique": "T1204.001"
+    },
+    {
+        "timestamp": "2025-07-17 06:58:01",
+        "sender": "alert@secure-mi\u0441rosoft-ch\u0435ck.c\u043em",
+        "recipient": "eve@company.com",
+        "subject": "Sus\u0440i\u0441ious Login",
+        "url": "https://secure-mi\u0441rosoft-ch\u0435ck.c\u043em/login",
+        "matched_pattern": "secure[-_.]?(check|account|microsoft)",
+        "mitre_technique": "T1584.001"
+    },
+    {
+        "timestamp": "2025-07-18 21:13:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 22:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 13:10:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 14:02:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 02:42:01",
+        "sender": "alert@\u0441ustomerservic\u0435-netflix.\u0441om",
+        "recipient": "grace@company.com",
+        "subject": "Urgent \u0430c\u0441ount U\u0440date",
+        "url": "https://\u0441ustomerservic\u0435-netflix.\u0441om/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-17 12:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 07:51:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 20:31:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 01:12:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 21:46:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 20:25:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 22:57:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 09:06:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 14:11:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 19:05:01",
+        "sender": "alert@cmd-reset-warning.net",
+        "recipient": "carol@company.com",
+        "subject": "D\u043ewnload Invoic\u0435",
+        "url": "https://cmd-reset-warning.net/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.003"
+    },
+    {
+        "timestamp": "2025-07-14 05:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 22:48:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 07:26:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 14:21:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 19:19:01",
+        "sender": "alert@customerservi\u0441\u0435-netfli\u0445.com",
+        "recipient": "ivan@company.com",
+        "subject": "Suspici\u043eus L\u043egin",
+        "url": "https://customerservi\u0441\u0435-netfli\u0445.com/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-19 19:39:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 14:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 18:10:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 11:52:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 01:07:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 23:25:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 22:26:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 10:24:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 04:21:01",
+        "sender": "alert@invoice-u\u0440date.com",
+        "recipient": "frank@company.com",
+        "subject": "V\u0435rify Now",
+        "url": "https://invoice-u\u0440date.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-18 14:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 13:23:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 02:11:01",
+        "sender": "alert@d\u043ecument-preview.net",
+        "recipient": "bob@company.com",
+        "subject": "Verif\u0443 Now",
+        "url": "https://d\u043ecument-preview.net/login",
+        "matched_pattern": "(document|pdf)[-_.]?preview",
+        "mitre_technique": "T1566.001"
+    },
+    {
+        "timestamp": "2025-07-18 04:18:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-13 23:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 21:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 11:59:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 06:55:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 16:49:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 07:26:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 09:10:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 08:46:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 14:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 05:51:01",
+        "sender": "alert@customerservi\u0441e-netflix.com",
+        "recipient": "frank@company.com",
+        "subject": "Verify Now",
+        "url": "https://customerservi\u0441e-netflix.com/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-16 00:29:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 06:23:01",
+        "sender": "alert@\u0441ustomerservi\u0441e-netflix.c\u043em",
+        "recipient": "frank@company.com",
+        "subject": "Urgent A\u0441count Upd\u0430t\u0435",
+        "url": "https://\u0441ustomerservi\u0441e-netflix.c\u043em/login",
+        "matched_pattern": "netfl[i1]x",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-15 08:18:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 23:31:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 13:00:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 01:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 16:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 15:59:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 04:15:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 01:17:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 02:23:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 09:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 02:19:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 15:51:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 23:25:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 08:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 11:15:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 21:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 22:03:01",
+        "sender": "alert@do\u0441um\u0435nt-\u0440review.n\u0435t",
+        "recipient": "carol@company.com",
+        "subject": "Urgent \u0430c\u0441ount Update",
+        "url": "https://do\u0441um\u0435nt-\u0440review.n\u0435t/login",
+        "matched_pattern": "(document|pdf)[-_.]?preview",
+        "mitre_technique": "T1566.001"
+    },
+    {
+        "timestamp": "2025-07-20 04:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 06:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 23:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 23:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 10:55:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 21:04:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 10:46:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 11:23:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 20:39:01",
+        "sender": "alert@\u0441md-reset-w\u0430rning.net",
+        "recipient": "alice@company.com",
+        "subject": "Sus\u0440icious Login",
+        "url": "https://\u0441md-reset-w\u0430rning.net/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.003"
+    },
+    {
+        "timestamp": "2025-07-17 19:50:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 06:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 11:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 20:53:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 08:32:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 00:04:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 16:42:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 02:01:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 12:33:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 03:00:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 09:44:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 17:32:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 13:19:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 23:58:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 18:58:01",
+        "sender": "alert@\u0440ay\u0440al-al\u0435rt.net",
+        "recipient": "frank@company.com",
+        "subject": "Verify Now",
+        "url": "https://\u0440ay\u0440al-al\u0435rt.net/login",
+        "matched_pattern": "paypal[-_.]?alert",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-16 09:56:01",
+        "sender": "alert@invoic\u0435-upd\u0430t\u0435.com",
+        "recipient": "carol@company.com",
+        "subject": "Downl\u043ead Invoi\u0441e",
+        "url": "https://invoic\u0435-upd\u0430t\u0435.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-15 18:16:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-13 23:12:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 15:50:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 07:23:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 15:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 19:53:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 12:42:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 16:40:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 10:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "heidi@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 21:10:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 10:49:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 12:29:01",
+        "sender": "alert@cmd-reset-warning.net",
+        "recipient": "heidi@company.com",
+        "subject": "Urg\u0435nt A\u0441c\u043eunt Update",
+        "url": "https://cmd-reset-warning.net/login",
+        "matched_pattern": "(cmd|powershell)[-_.]?(reset|helpdesk|auth)",
+        "mitre_technique": "T1059.003"
+    },
+    {
+        "timestamp": "2025-07-16 15:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "ivan@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 08:17:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 12:26:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 09:36:01",
+        "sender": "alert@secure-micros\u043eft-che\u0441k.\u0441om",
+        "recipient": "alice@company.com",
         "subject": "Immediate Action Required",
-        "url": "https://paypal-alert.net/login",
-        "matched_pattern": ".*paypal.*(alert|check).*",
-        "mitre_technique": "T1566.002",
-        "mitre_tactic": "Initial Access"
+        "url": "https://secure-micros\u043eft-che\u0441k.\u0441om/login",
+        "matched_pattern": "secure[-_.]?(check|account|microsoft)",
+        "mitre_technique": "T1584.001"
+    },
+    {
+        "timestamp": "2025-07-14 18:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "grace@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 17:40:01",
+        "sender": "alert@pa\u0443p\u0430l-alert.net",
+        "recipient": "dave@company.com",
+        "subject": "Urg\u0435nt Account U\u0440date",
+        "url": "https://pa\u0443p\u0430l-alert.net/login",
+        "matched_pattern": "paypal[-_.]?alert",
+        "mitre_technique": "T1566.002"
+    },
+    {
+        "timestamp": "2025-07-19 13:33:01",
+        "sender": "alert@invoic\u0435-updat\u0435.com",
+        "recipient": "grace@company.com",
+        "subject": "Verify Now",
+        "url": "https://invoic\u0435-updat\u0435.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-19 10:34:01",
+        "sender": "alert@s\u0435cur\u0435-micr\u043es\u043eft-check.\u0441om",
+        "recipient": "carol@company.com",
+        "subject": "Imm\u0435diate A\u0441tion Requir\u0435d",
+        "url": "https://s\u0435cur\u0435-micr\u043es\u043eft-check.\u0441om/login",
+        "matched_pattern": "secure[-_.]?(check|account|microsoft)",
+        "mitre_technique": "T1584.001"
+    },
+    {
+        "timestamp": "2025-07-19 04:44:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 18:56:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 19:14:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 05:03:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 19:02:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "alice@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 19:50:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "bob@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 10:36:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 05:17:01",
+        "sender": "alert@inv\u043eice-u\u0440d\u0430te.com",
+        "recipient": "alice@company.com",
+        "subject": "Urgent A\u0441c\u043eunt Upd\u0430te",
+        "url": "https://inv\u043eice-u\u0440d\u0430te.com/login",
+        "matched_pattern": "invoice[-_.]?update",
+        "mitre_technique": "T1556.002"
+    },
+    {
+        "timestamp": "2025-07-20 03:10:01",
+        "sender": "alert@se\u0441ure-microsoft-check.\u0441om",
+        "recipient": "grace@company.com",
+        "subject": "Suspicious Login",
+        "url": "https://se\u0441ure-microsoft-check.\u0441om/login",
+        "matched_pattern": "secure[-_.]?(check|account|microsoft)",
+        "mitre_technique": "T1584.001"
+    },
+    {
+        "timestamp": "2025-07-15 01:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 08:04:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 03:34:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-20 06:43:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 18:37:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-19 07:24:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "eve@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 20:12:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-14 20:26:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 08:16:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Weekly Update",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-16 22:05:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "frank@company.com",
+        "subject": "Project Kickoff",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-17 22:54:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "carol@company.com",
+        "subject": "Internal Newsletter",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-15 11:08:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "dave@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
+    },
+    {
+        "timestamp": "2025-07-18 03:39:01",
+        "sender": "noreply@internal-notify.com",
+        "recipient": "judy@company.com",
+        "subject": "Meeting Reminder",
+        "url": "https://internal-notify.com/notice",
+        "matched_pattern": "internal[-_.]?notify",
+        "mitre_technique": "T1585.001"
     }
 ]

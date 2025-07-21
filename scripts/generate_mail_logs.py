@@ -3,6 +3,28 @@ import csv
 import random
 from datetime import datetime, timedelta
 from pathlib import Path
+import random
+
+cyrillic_homoglyphs = {
+    "a": "а",  # Latin a → Cyrillic а
+    "e": "е",  # Latin e → Cyrillic е
+    "o": "о",  # Latin o → Cyrillic о
+    "c": "с",  # Latin c → Cyrillic с
+    "p": "р",  # Latin p → Cyrillic р
+    "x": "х",  # Latin x → Cyrillic х
+    "y": "у",  # Latin y → Cyrillic у
+}
+
+def apply_cyrillic_obfuscation(text, strength=0.2):
+    """Randomly replaces some Latin letters with Cyrillic homoglyphs."""
+    result = []
+    for char in text:
+        if char.lower() in cyrillic_homoglyphs and random.random() < strength:
+            result.append(cyrillic_homoglyphs[char.lower()])
+        else:
+            result.append(char)
+    return ''.join(result)
+
 
 # ----- Step 1: Collect CLI Input -----
 
@@ -111,18 +133,27 @@ now = datetime.now()
 
 num_phishing = int(total * phishing_pct / 100)
 num_clean = total - num_phishing
+print(f"📌 Generator: Created {num_phishing} phishing emails out of {total} total")
+print(f"📌 Generator: Created {num_clean} clean emails out of {total} total")
 
 # Generate phishing records
 for _ in range(num_phishing):
     mitre = random.choice(mitre_selected)[0]
     domain = random.choice(phishing_patterns.get(mitre, ["badsite.com"]))
+    subject = random.choice(subjects_phishing)
+
+    # 🔐 Obfuscate with Cyrillic homoglyphs
+    domain_obfuscated = apply_cyrillic_obfuscation(domain, strength=0.3)
+    subject_obfuscated = apply_cyrillic_obfuscation(subject, strength=0.3)
+
     records.append({
         "timestamp": (now - timedelta(minutes=random.randint(1, 10000))).strftime("%Y-%m-%d %H:%M:%S"),
-        "sender": f"alert@{domain}",
+        "sender": f"alert@{domain_obfuscated}",
         "recipient": random.choice(recipients),
-        "subject": random.choice(subjects_phishing),
-        "url": f"https://{domain}/login"
+        "subject": subject_obfuscated,
+        "url": f"https://{domain_obfuscated}/login"
     })
+
 
 # Generate clean records
 for _ in range(num_clean):
@@ -140,7 +171,7 @@ random.shuffle(records)
 
 # Write to CSV
 csv_path.parent.mkdir(parents=True, exist_ok=True)
-with csv_path.open('w', newline='') as f:
+with csv_path.open('w', newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=["timestamp", "sender", "recipient", "subject", "url"])
     writer.writeheader()
     writer.writerows(records)
