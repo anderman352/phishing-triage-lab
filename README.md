@@ -1,70 +1,53 @@
-phishing-triage-lab
-SOC Alert Lifecycle simulation: phishing email analysis, threat triage, and IR documentation.
+📁 phishing-triage-lab
+Simulates a SOC alert lifecycle: generate realistic phishing emails, triage logs, flag threats, and document incident response.
 
 🔍 Features
+Realistic phishing logs w/ MITRE techniques & obfuscation
 
-Regex-based detection for phishing emails
+Cyrillic homoglyph support to simulate evasion tactics
 
-Color-coded, human-friendly terminal output
+Smart regex detection of sender, subject, and URLs
 
-Dynamically resolves log file path (no hardcoded paths)
+Unicode-safe parsing and formatted output
 
-Detects common obfuscations (e.g., netfl1x, amaz0n, secure-check, dropbox-login)
+Summary reporting by domain and MITRE tactic
 
-Tags MITRE ATT&CK techniques based on matched patterns
+Colorized CLI alerts for quick triage
 
-Exports findings to JSON for downstream analysis
+JSON export of flagged emails
 
-Insight script reveals phishing trends and target patterns
+🛠️ Scripts
+Script	Purpose
+generate_mail_logs.py	Create CSV logs (1–1000 emails, % phishing, MITRE-based)
+csv_sslp.py	Parse CSV logs and flag suspicious patterns
+inspect_phishing_csv.py	Inspect raw phishing ground truth (for testing)
 
-Supports both CSV and JSON email log formats
+🧪 Sample Workflow
+bash
+Copy
+Edit
+# 1. Generate phishing logs
+python scripts/generate_mail_logs.py
 
-🧠 Log Parser Scripts
-This lab now supports both CSV and JSON log formats, with separate parsers for each.
+# 2. Analyze for threats
+python scripts/csv_sslp.py
 
-📂 CSV Parser – csv_sslp.py
-Parses phishing email records from a CSV-formatted mail log. Detects suspicious patterns, maps MITRE techniques, and exports alerts.
+# 3. Inspect expected phishing records
+python scripts/inspect_phishing_csv.py
+🔐 Detection Logic
+The parser:
 
-File: scripts/csv_sslp.py
-To Run: python scripts/csv_sslp.py
-Input: artifacts/mail_logs.csv
-Output: artifacts/suspicious_emails.json
+Normalizes Unicode text (NFKD)
 
-📂 JSON Parser – json_sslp.py (stubbed)
-Parses structured phishing records in JSON format. Currently a placeholder for enhanced metadata-aware detection.
+Replaces Cyrillic homoglyphs (e.g. а → a)
 
-File: scripts/json_sslp.py
-To Run: python scripts/json_sslp.py
-Input: artifacts/mail_logs.json
-Status: 🚧 Parser logic to be implemented
+Applies phishing regex patterns
 
-📊 Analyzer Script
-This script ingests the exported suspicious email dataset and reveals threat trends by:
+Flags and exports suspicious entries to JSON
 
-Identifying top sender domains
+📦 Outputs
+artifacts/mail_logs.csv: full dataset
 
-Sorting attack volume by MITRE technique
+artifacts/suspicious_emails.json: flagged records
 
-Ranking most-targeted users in your environment
-
-File: scripts/analyzer.py
-To Run: python scripts/analyzer.py
-Output: Structured insight from suspicious_emails.json
-
-🧪 Mail Log Generator
-Interactive CLI script to generate realistic phishing and benign emails at scale. Supports custom MITRE tags and output format selection.
-
-File: scripts/generate_mail_logs.py
-To Run: python scripts/generate_mail_logs.py
-
-User can specify:
-
-Email volume (10–1000)
-
-% phishing (1–5%)
-
-MITRE techniques used
-
-Output format: CSV or JSON
-
-Difficulty level (stubbed)
+Console summary of suspicious domains, MITRE techniques
